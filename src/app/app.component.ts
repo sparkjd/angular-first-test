@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'first-angular';
+  title = 'first-angular-test';
+
+  getTestText() {
+    return 'test Text function executed';
+  }
 }
